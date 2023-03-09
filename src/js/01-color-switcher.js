@@ -6,6 +6,7 @@ const btnStartSwitchColor = document.querySelector('button[data-start]');
 const btnStopSwitchColor = document.querySelector('button[data-stop]');
 const bodyBgColor = document.querySelector('body');
 
+let timerId = null;
 // btnStopSwitchColor.disabled = true;
 
 btnStartSwitchColor.addEventListener('click', onStartSwitchColor);
